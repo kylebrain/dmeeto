@@ -1,0 +1,1 @@
+export const endpointUrl = "https://4jhvf2usw2.execute-api.us-west-1.amazonaws.com/test";
