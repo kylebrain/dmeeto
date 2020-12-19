@@ -23,7 +23,7 @@ export const Username: React.FC<UsernameProps> = ({setUserId, initialUsername} :
         <TextInput style={{ borderColor: 'gray', borderWidth: 1, paddingHorizontal: 6}}
           onChangeText={text => setValue(text)}
           value={value}
-          onSubmitEditing={() => setValue("")}
+          onSubmitEditing={() => setUserName(value)}
           returnKeyType="go"
         />
         <Button disabled={value == ""} title="SUBMIT" onPress={() => setUserName(value)} />
