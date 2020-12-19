@@ -1,22 +1,22 @@
 {
   "files": {
-    "app.js": "/dmeeto/static/js/app.c91f1e84.chunk.js",
-    "app.js.map": "/dmeeto/static/js/app.c91f1e84.chunk.js.map",
+    "app.js": "/dmeeto/static/js/app.dcc3b4e1.chunk.js",
+    "app.js.map": "/dmeeto/static/js/app.dcc3b4e1.chunk.js.map",
     "runtime~app.js": "/dmeeto/static/js/runtime~app.61d3c7bd.js",
     "runtime~app.js.map": "/dmeeto/static/js/runtime~app.61d3c7bd.js.map",
-    "static/js/2.e8ca7335.chunk.js": "/dmeeto/static/js/2.e8ca7335.chunk.js",
-    "static/js/2.e8ca7335.chunk.js.map": "/dmeeto/static/js/2.e8ca7335.chunk.js.map",
+    "static/js/2.6b008765.chunk.js": "/dmeeto/static/js/2.6b008765.chunk.js",
+    "static/js/2.6b008765.chunk.js.map": "/dmeeto/static/js/2.6b008765.chunk.js.map",
     "favicon-16.png": "/dmeeto/favicon-16.png",
     "favicon-32.png": "/dmeeto/favicon-32.png",
     "favicon.ico": "/dmeeto/favicon.ico",
     "index.html": "/dmeeto/index.html",
     "manifest.json": "/dmeeto/manifest.json",
     "serve.json": "/dmeeto/serve.json",
-    "static/js/2.e8ca7335.chunk.js.LICENSE.txt": "/dmeeto/static/js/2.e8ca7335.chunk.js.LICENSE.txt"
+    "static/js/2.6b008765.chunk.js.LICENSE.txt": "/dmeeto/static/js/2.6b008765.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.61d3c7bd.js",
-    "static/js/2.e8ca7335.chunk.js",
-    "static/js/app.c91f1e84.chunk.js"
+    "static/js/2.6b008765.chunk.js",
+    "static/js/app.dcc3b4e1.chunk.js"
   ]
 }
