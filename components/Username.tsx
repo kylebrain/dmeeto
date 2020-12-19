@@ -19,10 +19,13 @@ export const Username: React.FC<UsernameProps> = ({setUserId, initialUsername} :
   let body =
     <View style={{ flex: 1 }}>
       <Text>Enter username</Text>
-      <View style={{ flex: 1, flexDirection: "row" }}>
-        <TextInput style={{ borderColor: 'gray', borderWidth: 1, paddingHorizontal: 6 }}
+      <View style={{flexDirection: "row", height:30 }}>
+        <TextInput style={{ borderColor: 'gray', borderWidth: 1, paddingHorizontal: 6}}
           onChangeText={text => setValue(text)}
-          value={value} />
+          value={value}
+          onSubmitEditing={() => setValue("")}
+          returnKeyType="go"
+        />
         <Button disabled={value == ""} title="SUBMIT" onPress={() => setUserName(value)} />
       </View>
     </View>
