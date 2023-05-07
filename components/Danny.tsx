@@ -9,6 +9,7 @@ interface DannyProps
 
 export const Danny: React.FC<DannyProps> = ({userId} : DannyProps) => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const [hasUser, setHasUser] = useState(false);
   const [error, setError] = useState(null);
   const [danny, setDanny] = useState({ "name": "", "profileId": "-1", "imageUrl": "", "description": "", "message": "" });
 
@@ -61,13 +62,18 @@ export const Danny: React.FC<DannyProps> = ({userId} : DannyProps) => {
     if(userId != "")
     {
       fetchNewDanny(userId);
+      setHasUser(true);
     } else{
       setIsLoaded(false);
+      setHasUser(false);
     }
   }, [userId]);
 
   let body = <Text style={{ textAlign: "center", width: "80%", height: "118px" }}>Finding next match...</Text>;
-  if (isLoaded) {
+  if(!hasUser)
+  {
+    body = <Text style={{ textAlign: "center", width: "80%", height: "118px" }}>Please create or enter a username above</Text>;
+  } else if (isLoaded) {
     if (error) {
       body = <Text>{"Error: " + error}</Text>;
     } else if (danny.message != undefined) {
