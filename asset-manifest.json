@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/dmeeto/static/js/app.7cabba53.chunk.js",
-    "app.js.map": "/dmeeto/static/js/app.7cabba53.chunk.js.map",
+    "app.js": "/dmeeto/static/js/app.f6061e97.chunk.js",
+    "app.js.map": "/dmeeto/static/js/app.f6061e97.chunk.js.map",
     "runtime~app.js": "/dmeeto/static/js/runtime~app.61d3c7bd.js",
     "runtime~app.js.map": "/dmeeto/static/js/runtime~app.61d3c7bd.js.map",
     "static/js/2.6b008765.chunk.js": "/dmeeto/static/js/2.6b008765.chunk.js",
@@ -17,6 +17,6 @@
   "entrypoints": [
     "static/js/runtime~app.61d3c7bd.js",
     "static/js/2.6b008765.chunk.js",
-    "static/js/app.7cabba53.chunk.js"
+    "static/js/app.f6061e97.chunk.js"
   ]
 }
